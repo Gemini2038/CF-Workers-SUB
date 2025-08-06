@@ -13,18 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-hysteria2://48c9bfe4-9b75-4d06-9e43-0615b0ed4e1f@h2.lqqp.nyc.mn:22553?sni=h2.lqqp.nyc.mn&alpn=h3&insecure=0#%E6%96%B0%E5%8A%A0%E5%9D%A1_hysteria2
-vless://babcf86f-8195-4784-8577-384c8d3abf94@test.lqqp.nyc.mn:18199?encryption=none&security=none&type=tcp&headerType=none#aws-sg-1-a397wv17
-vless://461d2bec-1d24-4b38-9c00-a8be3173ef1e@test.lqqp.nyc.mn:56993?encryption=none&security=none&type=ws&path=%2F#aws-sg-2-iwjftecw
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImF3cy1zZy0zLTNoendudnZhIiwNCiAgImFkZCI6ICJ0ZXN0LmxxcXAubnljLm1uIiwNCiAgInBvcnQiOiAiNDM0MTgiLA0KICAiaWQiOiAiMmVmMjBhOTAtNmFiNi00MGU1LWE3NjEtYzg2ZmZhZWNjNjNiIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImF3cy1zZy00LWlvM2tiZ2E0IiwNCiAgImFkZCI6ICJ0ZXN0LmxxcXAubnljLm1uIiwNCiAgInBvcnQiOiAiMTI3NjIiLA0KICAiaWQiOiAiZTg3ZmM1ZjYtYjhjNi00NWVhLTk2NmEtNmU2Njg0MGQ4NzgzIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICIiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vless://017b43b1-3c2f-4433-9704-70df66771ae0@test.lqqp.nyc.mn:48396?encryption=none&security=reality&sni=tesla.com&fp=chrome&pbk=xMXcmnbBIdv4ftefEmDmnkQZDllpaQcgnBscM5u5_C8&sid=bc4c2d057f5a95&spx=%2F&type=grpc#vless%2Bgrpc%2Breality-sg
-vless://0bd1a1c4-e8ce-46c3-accb-4186b239b194@test.lqqp.nyc.mn:53711?encryption=none&security=reality&sni=tesla.com&fp=chrome&pbk=D_sYSFURSHXb9iZKp7T-JjyJCXFY5hHf4M763dy5Rhw&sid=5f&spx=%2F&type=tcp&headerType=none#vless%2Btcp%2Breality-sg
-vless://3c728f7f-2136-43eb-8017-5c939479c150@test.lqqp.nyc.mn:38709?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&type=ws&path=%2F#vless%2Bws%2Btls-sg
-vless://26265671-72e9-489c-8561-bb78a37e3731@test.lqqp.nyc.mn:43637?encryption=none&security=tls&alpn=h2%2Chttp%2F1.1&fp=chrome&type=tcp&headerType=none#vless%2Btcp%2Btls-sg
-vless://084ab312-3a39-4ddf-b867-8324429d5d8f@209.54.105.37:20244?encryption=none&security=reality&sni=www.lovelive-anime.jp&fp=chrome&pbk=L0R0EU6S565R_OlyME-O50qUSpiFp6tuaI5_RgOfdG8&sid=6ba85179e30d4fc2&type=grpc&authority=&serviceName=grpc&mode=gun#RN-US-vless_reality_grpc
-hysteria2://e3f753f9-0046-4efb-bb21-4cf7f41da0a9@rnh2.lqqp.nyc.mn:24086?sni=rnh2.lqqp.nyc.mn&alpn=h3&insecure=0#RN-US-singbox_hysteria2
-
+https://SOS.CMLiussss.net/auto
 `;
 
 let urls = [];
@@ -838,4 +827,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
 
