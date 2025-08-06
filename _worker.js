@@ -13,7 +13,8 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+hysteria2://48c9bfe4-9b75-4d06-9e43-0615b0ed4e1f@h2.lqqp.nyc.mn:22553?sni=h2.lqqp.nyc.mn&alpn=h3&insecure=0#%E6%96%B0%E5%8A%A0%E5%9D%A1_hysteria2
+
 `;
 
 let urls = [];
@@ -825,4 +826,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
